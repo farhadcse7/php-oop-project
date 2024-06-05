@@ -4,6 +4,7 @@ require_once "vendor/autoload.php";
 
 use App\classes\Home;
 
+//calling home class
 $home = new Home();
 $home->index();
 
